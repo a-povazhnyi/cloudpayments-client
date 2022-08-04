@@ -93,7 +93,7 @@ async def test():
     public_id = 'pk_71efb26a18397ec61b755221123cc'
     api_secret = '0ddb459b-e71e-43be-97a9-bcf1297fb5f9'
     charge_request_data = {
-        'Amount': '888',
+        'Amount': '0.8',
         'Currency': 'RUB',
         'IpAddress': '0.0.0.0',
         'CardCryptogramPacket': 'test',
