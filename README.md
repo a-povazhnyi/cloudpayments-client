@@ -32,3 +32,7 @@ Run `main.py`
 user's request 
 - `charge` method is used for cryptogram Yandex payment. Required parameter is
 `request_data`
+
+## WARNING
+- Use `python 3.9` instead of `3.10` if 
+`aiohttp.client_exceptions.ClientConnectorCertificateError` is handled
