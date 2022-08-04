@@ -14,9 +14,6 @@ from schemas import CardChargeRequestSchema
 class CloudPaymentsClient(AbstractInteractionClient):
     CONNECTOR = TCPConnector()
 
-    REQUEST_TIMEOUT = None
-    CONNECT_TIMEOUT = None
-
     SERVICE = 'CloudPayments'
     BASE_URL = 'https://api.cloudpayments.ru/payments/cards/'
     CHARGE_URL = 'charge'
